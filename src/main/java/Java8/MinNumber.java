@@ -13,6 +13,7 @@ public class MinNumber {
         IntStream.of(numbers).average().ifPresent(System.out::println);
         IntStream.of(numbers).average().ifPresent(System.out::println);
         IntStream.of(numbers).average().ifPresent(System.out::println);
+           // comment added in submodule main branch
     }
 
 }
