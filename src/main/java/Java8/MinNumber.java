@@ -8,6 +8,7 @@ public class MinNumber {
         IntStream.of(numbers).min().ifPresent(System.out::println);
         IntStream.of(numbers).max().ifPresent(System.out::println);
         IntStream.of(numbers).average().ifPresent(System.out::println);
+        IntStream.of(numbers).average().ifPresent(System.out::println);
     }
 
 }
